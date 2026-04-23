@@ -19,7 +19,7 @@ export default function Login() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>Book Library Login</Text>
+      <Text style={styles.header}>My Book Library Login</Text>
       <TextInput placeholder="Username" style={styles.input} onChangeText={setUsername} />
       <TextInput placeholder="Password" style={styles.input} secureTextEntry onChangeText={setPassword} />
       <Button title="Login" onPress={handleLogin} />
